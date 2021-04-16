@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Consumer App</string>
+    <string name="not_found">Data Tidak Ditemukan</string>
+    <string name="name">%s</string>
+    <string name="username">%s</string>
+    <string name="type">%s</string>
+    <string name="bio">%s</string>
+    <string name="number">0</string>
+    <string name="repository">Nama Repo</string>
+    <string name="followers">Pengikut</string>
+    <string name="following">Mengikuti</string>
+    <string name="company">Perusahaan</string>
+    <string name="location">Lokasi</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="settings">Pengaturan</string>
+    <string name="set_reminder">Atur Pengingat</string>
+    <string name="notification">Pengingat Nyala</string>
+    <string name="favorite_button">Tombol Favorite</string>
+    <string name="repeating_succes">Pengulang Alarm Dinyalakan</string>
+    <string name="repeating_failed">Pengulang Alarm Dibatalkan</string>
+    <string name="insert_success">Berhasil Menambahkan Pengguna Favorite</string>
+    <string name="favorite">Favorite</string>
+    <string name="delete_success">Berhasil menghapis pengguna dari Favorite</string>
+    <string name="search">Cari nama pengguna</string>
+    <string name="github_logo">Github logo</string>
+</resources>

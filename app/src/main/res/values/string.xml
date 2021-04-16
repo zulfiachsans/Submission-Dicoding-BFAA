@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Gituhub App</string>
+    <string name="not_found">Data Not Found</string>
+    <string name="name">%s</string>
+    <string name="username">%s</string>
+    <string name="type">%s</string>
+    <string name="bio">%s</string>
+    <string name="number">0</string>
+    <string name="repository">Repo Name</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="change_language">Change language</string>
+    <string name="settings">Settings</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="notification">Reminder is ON</string>
+    <string name="favorite_button">Favorite Button</string>
+    <string name="favorite">Favorite</string>
+    <string name="repeating_succes">Repeating Alarm Succces</string>
+    <string name="repeating_failed">Repeating Alarm Cancelled</string>
+    <string name="insert_success">successfully added to favorites</string>
+    <string name="delete_success">successfully delete user from favorites</string>
+    <string name="search">Search username</string>
+    <string name="github_logo">Github logo</string>
+</resources>

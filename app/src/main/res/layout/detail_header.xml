@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_detail_avatar"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="4dp"
+        android:src="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/detail_user_repositories"
+        style="@style/TextWhiteBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number"
+        app:layout_constraintBottom_toTopOf="@id/repo"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintLeft_toLeftOf="@id/repo"
+        app:layout_constraintRight_toRightOf="@id/repo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <TextView
+        android:id="@+id/repo"
+        style="@style/TextWhite14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/repository"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/img_detail_avatar" />
+
+    <TextView
+        android:id="@+id/detail_user_followers"
+        style="@style/TextWhiteBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number"
+        app:layout_constraintBottom_toTopOf="@id/followers"
+        app:layout_constraintLeft_toLeftOf="@id/followers"
+        app:layout_constraintRight_toRightOf="@id/followers"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/followers"
+        style="@style/TextWhite14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/followers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/repo"
+        app:layout_constraintRight_toLeftOf="@id/following"
+        app:layout_constraintTop_toBottomOf="@id/detail_user_followers" />
+
+    <TextView
+        android:id="@+id/detail_user_following"
+        style="@style/TextWhiteBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number"
+        app:layout_constraintBottom_toTopOf="@id/following"
+        app:layout_constraintLeft_toLeftOf="@id/following"
+        app:layout_constraintRight_toRightOf="@id/following"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/following"
+        style="@style/TextWhite14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/following"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/followers"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detail_user_following" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
